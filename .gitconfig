@@ -1,0 +1,15 @@
+[color]
+  ui = auto
+[alias]
+  st = status
+  di = diff
+  ci = commit
+  br = branch
+  llog = log --date=local
+  co = checkout
+[rerere]
+  enabled = true
+[user]
+  name = Dave Oleksy
+  email = dave@doleksy.com
+
