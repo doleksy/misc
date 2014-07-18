@@ -12,3 +12,4 @@ Setting up my blogs on Codio
     - `gem "middleman-syntax"`
     - `gem "middleman-gh-pages"`
 8. Create a new `Rakefile` and add `require 'middleman-gh-pages'` to it
+9.  `bundle install`
