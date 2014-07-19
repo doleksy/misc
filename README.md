@@ -6,7 +6,8 @@ wish they would allow me to create a template with these files (maybe they do). 
 until I find another solution this will work for now.
 
 Usage:
-```
+
+```sh
 cd ~
 git clone --no-checkout git@github.com:doleksy/misc.git
 mv misc/.git .
@@ -15,4 +16,8 @@ git reset --hard HEAD
 source .bashrc
 ```
 
-(Thanks to [stackoverflow](http://stackoverflow.com/questions/2411031/how-do-i-clone-into-a-non-empty-directory))
+(Thanks to [stackoverflow])
+
+
+----
+[stackoverflow]: (http://stackoverflow.com/questions/2411031/how-do-i-clone-into-a-non-empty-directory)
