@@ -2,7 +2,7 @@ Setting up my blogs on Codio
 ============================
 
 1.  Create new Codio project (named blogs)
-2.  Following instructions in [misc](https://github.com/doleksy/misc/blob/master/README.md) to setup .bashrc, .gitconfig, etc...
+2.  Following instructions in [misc] to setup .bashrc, .gitconfig, etc...
 3.  `gem install middleman`
 4.  `cd workspace`
 5.  `middleman init <my_project> --template=html5`
@@ -13,3 +13,6 @@ Setting up my blogs on Codio
     - `gem "middleman-gh-pages"`
 8. Create a new `Rakefile` and add `require 'middleman-gh-pages'` to it
 9.  `bundle install`
+
+---
+[misc]: https://github.com/doleksy/misc/blob/master/README.md
