@@ -50,5 +50,24 @@ git config --global core.ui true
 git config --global core.whitespace trailing-space,space-before-tab
 git config --global core.editor vim
 
-git config --global status.submoduleSummary true
+git config --global diff.algorithm histogram
+git config --global diff.colorMoved plain
+git config --global diff.mnemonicPrefix true
+git config --global diff.renames true
 git config --global diff.submodule log
+
+git config --global fetch.prune true
+git config --global fetch.pruneTags true
+git config --global fetch.all true
+
+git config --global init.defaultBranch main
+
+git config --global merge.conflictstyle zdiff3
+
+git config --global push.default simple
+git config --global push.autoSetupRemote true
+git config --global push.followTags true
+
+git config --global status.submoduleSummary true
+
+git config --global tag.sort version:refname
