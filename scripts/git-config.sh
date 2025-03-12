@@ -46,10 +46,10 @@ git config --global alias.tags "tag --list -n1"
 git config --global alias.bl "blame"
 git config --global alias.cp "cherry-pick"
 
-git config --system core.autocrlf false
+git config --global core.autocrlf false
+git config --global core.editor vim
 git config --global core.ui true
 git config --global core.whitespace trailing-space,space-before-tab
-git config --global core.editor vim
 
 git config --global diff.algorithm histogram
 git config --global diff.colorMoved plain
