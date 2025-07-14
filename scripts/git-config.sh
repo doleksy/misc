@@ -24,6 +24,7 @@ git config --global alias.l "!git --no-pager log -20 --pretty='format:%C(yellow)
 git config --global alias.ll "log --pretty='format:%C(yellow)%h %C(green)%ai %C(bold blue)%an %C(red)%d%C(reset) %s'"
 git config --global alias.lf "log --name-status --pretty='format:%C(yellow)%h %C(green)%ai %C(bold blue)%an %C(red)%d%C(reset) %s'"
 git config --global alias.lg "log --graph --pretty='format:%C(yellow)%h %C(green)%ai %C(bold blue)%an %C(red)%d%C(reset) %s'"
+git config --global alias.lp "log --oneline --decorate --graph --parents"
 git config --global alias.lga "log --graph --branches --remotes --tags --pretty='format:%C(yellow)%h %C(green)%ai %C(bold blue)%an %C(red)%d%C(reset) %s'"
 git config --global alias.m "merge --no-ff"
 git config --global alias.p "push"
