@@ -41,8 +41,8 @@ if [ -d .nvm ] && [ -s .nvm/nvm.sh ]; then
   run "nvm use default"
 fi
 
-runIfExists "npm" "npm install -g npm"
-runIfExists "npm" "npm update -g"
+runIfExists "npm" "npm update -g npm"
+runIfExists "npm" "npm update"
 
 runIfExists "raco" "raco pkg update --all"
 
